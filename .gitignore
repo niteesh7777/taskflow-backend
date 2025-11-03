@@ -11,10 +11,4 @@ npm-debug.log*
 /dist
 /build
 
-src/models/user.model.js
-src/models/task.model.js
-src/models/index.js
 
-src/routes/task.route.js
-
-src/services/task.service.js
