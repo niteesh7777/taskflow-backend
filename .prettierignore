@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts and compiled files
+build/
+dist/
+out/
+public/
+coverage/
+
+# Log files
+*.log
+
+# Configuration files that might be generated or managed by other tools
+package-lock.json
+yarn.lock
+
+# Specific files or directories you want to exclude
+src/generated/
