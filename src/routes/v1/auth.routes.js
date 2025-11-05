@@ -10,7 +10,7 @@ const router = express.Router();
 
 router.post('/register', validate(registerSchema), register);
 router.post('/login', validate(loginSchema), login);
-router.get('/user', authUser, restrictTo("user"), userProfile);
-router.get('/admin', authUser, restrictTo("admin"), adminProfile);
+router.get('/user', authUser, restrictTo('user'), userProfile);
+router.get('/admin', authUser, restrictTo('admin'), adminProfile);
 
 export default router;
